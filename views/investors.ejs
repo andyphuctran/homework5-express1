@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Investors</title>
+</head>
+
+<body>
+    <h1>
+        <%=title%>
+    </h1>
+    <table>
+        <%for(var i=0;i<investors.length;i++){%>
+            <tr>
+                <td>
+                    <%=investors[i].first%>
+                </td>
+                <td>
+                    <%=investors[i].last%>
+                </td>
+                <td>
+                    <%=investors[i].year%>
+                </td>
+            </tr>
+            <%}%>
+    </table>
+</body>
+
+</html>
